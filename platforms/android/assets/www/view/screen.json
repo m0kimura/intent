@@ -1,0 +1,4 @@
+{"items": [
+  {"ptype": "header", "title": "設定など", "icons": [{"name": "title"}]},
+  {"ptype": "list", "html": "<p class='%{class}' name='%{name}' op1='%{op1}'>%{title}</p>"}
+]}

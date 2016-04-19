@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Intent</title>
+<meta name="screenWidth" content="360">
+<script type="text/javascript" src="library/base.js"></script>
+<script type="text/sjs">
+var lib=require('library/library.sjs');
+var exe=require('library/screen.sjs');
+exe.open(function(info, rec, me){
+  me.recid="menu"; REC[me.recid]=me.getView("menu");
+  exe.create("screen");
+  $(".line").find(".setting").click(function(){
+    var x=$(this).attr("name"); var y=$(this).attr("op1");
+    intent.setting(x, function(msg){console.log(msg);}, function(msg){alert(msg);}, y);
+  });
+  $(".toast").click(function(){
+    var x=$(this).attr("op1"); intent.toast(x, function(msg){console.log(msg);});
+  });
+  $(".flags").click(function(){
+    var x=$(this).attr("name"); var y=$(this).attr("op1");
+    intent.flags(x, function(msg){console.log(msg);}, function(msg){alert(msg);}, y);
+  });
+});
+</script>
+</head>
+<body></body>
+</html>

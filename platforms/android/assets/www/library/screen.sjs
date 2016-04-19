@@ -1,0 +1,1 @@
+/home/kimura/alc-project/cordova/library/screen.sjs

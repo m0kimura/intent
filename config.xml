@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="net.kmrweb.intent" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>intent</name>
+    <description>Intent Setting</description>
+    <author email="kimura@kmrweb.net" href="http://cordova.io">Michihiro Kimura At Kmrweb</author>
+
+    <content src="index.html" />
+
+    <preference name="permissions" value="none" />
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="false" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="disableOverscroll" value="true" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="android-minSdkVersion" value="10" />
+    <preference name="android-installLocation" value="auto" />
+    <preference name="android-windowSoftInputMode" value="stateHidden|adjustPan" />
+
+    <icon src="view/icon.png" width="128" height="128"/>
+
+    <access origin="*" />
+
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+
+    <allow-navigation href="*" />
+
+    <platform name="android">
+      <allow-intent href="market:*" />
+
+      <icon density="ldpi" src="www/view/icon/android/icon36.png" />
+      <icon density="mdpi" src="www/view/icon/android/icon48.png" />
+      <icon density="hdpi" src="www/view/icon/android/icon72.png" />
+      <icon density="xhdpi" src="www/view/icon/android/icon96.png" />
+
+      <splash density="port-ldpi" src="www/view/screen/android/screen320p.png" />
+      <splash density="port-mdpi" src="www/view/screen/android/screen480p.png" />
+      <splash density="port-hdpi" src="www/view/screen/android/screen800p.png" />
+      <splash density="port-xhdpi" src="www/view/screen/android/screen1280p.png" />
+      <splash density="land-ldpi" src="www/view/screen/android/screen320l.png" />
+      <splash density="land-mdpi" src="www/view/screen/android/screen480l.png" />
+      <splash density="land-hdpi" src="www/view/screen/android/screen800l.png" />
+      <splash density="land-xhdpi" src="www/view/screen/android/screen1280l.png" />
+
+    </platform>
+
+    <platform name="ios">
+        <preference name="target-device" value="universal" />
+        <preference name="ios-statusbarstyle" value="black-opaque" />
+        <preference name="prerendered-icon" value="true" />
+        <preference name="detect-data-types" value="true" />
+        <preference name="exit-on-suspend" value="false" />
+        <preference name="show-splash-screen-spinner" value="true" />
+        <preference name="auto-hide-splash-screen" value="true" />
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+
+    <engine name="android" spec="^4.0.0" />
+
+</widget>

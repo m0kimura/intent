@@ -1,0 +1,1 @@
+/home/kimura/alc-project/repository/jquery-2.1.1.js

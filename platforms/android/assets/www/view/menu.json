@@ -1,0 +1,19 @@
+[
+  {"class": "setting", "name": "user", "op1": "", "title": "ユーザーセッティング"},
+  {"class": "setting", "name":"account", "op1": "", "title": "アカウント"},
+  {"class": "setting", "name":"airplane", "op1": "", "title": "機内設定"},
+  {"class": "setting", "name":"developper", "op1": "", "title": "開発者モード"},
+  {"class": "setting", "name":"application", "op1": "net.kmrweb.intent", "title": "アプリケーション詳細"},
+  {"class": "setting", "name":"applist", "op1": "", "title": "アプリ一覧"},
+  {"class": "setting", "name":"roaming", "op1": "", "title": "ローミング"},
+  {"class": "setting", "name":"date", "op1": "", "title": "日付"},
+  {"class": "setting", "name":"device", "op1": "", "title": "デバイス"},
+  {"class": "setting", "name":"display", "op1": "", "title": "ディスプレイ"},
+  {"class": "setting", "name":"saver", "op1": "", "title": "スクリーンセーバー"},
+  {"class": "setting", "name":"keyboad", "op1": "", "title": "インプットデバイス"},
+  {"class": "toast", "op1": "メッセージ表示", "title": "トーストメッセージ"},
+  {"class": "flags", "name":"fullscreen", "op1": "on", "title": "フルスクリーンオン"},
+  {"class": "flags", "name":"fullscreen", "op1": "off", "title": "フルスクリーンオフ"},
+  {"class": "flags", "name":"nosleep", "op1": "on", "title": "スリープなしオン"},
+  {"class": "flags", "name":"nosleep", "op1": "off", "title": "スリープなしオフ"}
+]
